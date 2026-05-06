@@ -1,0 +1,11 @@
+/vendor/
+.agent/
+Laravel_Eloquent_Insight.code-workspace
+/integration_test/storage/
+/integration_test/vendor/
+.phpunit.result.cache
+.idea/
+.vscode/
+.DS_Store
+*.jsonl
+/storage/framework/insight/

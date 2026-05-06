@@ -1,0 +1,57 @@
+{
+    "name": "clcbws/laravel-eloquent-insight",
+    "description": "Premium Eloquent performance suite with N+1 resolution, ghost relation detection, hydration profiling, and AST auto-fixing.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/clcbws/laravel-eloquent-insight",
+    "authors": [
+        {
+            "name": "Ahtesham",
+            "email": "ahtesham@clcbws.com",
+            "homepage": "https://www.clcbws.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^13.0|^12.0|^11.0",
+        "illuminate/database": "^13.0|^12.0|^11.0",
+        "illuminate/console": "^13.0|^12.0|^11.0",
+        "nikic/php-parser": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0|^11.0",
+        "orchestra/testbench": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EloquentInsight\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EloquentInsight\\InsightServiceProvider"
+            ],
+            "aliases": {
+                "Insight": "EloquentInsight\\Facades\\Insight"
+            }
+        }
+    },
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "performance",
+        "database",
+        "n+1",
+        "audit",
+        "insight",
+        "clcbws"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/clcbws/laravel-eloquent-insight/issues",
+        "source": "https://github.com/clcbws/laravel-eloquent-insight"
+    }
+}
