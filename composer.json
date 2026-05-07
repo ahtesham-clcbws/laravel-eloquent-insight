@@ -1,7 +1,6 @@
 {
     "name": "clcbws/laravel-eloquent-insight",
     "description": "Premium Eloquent performance suite with N+1 resolution, ghost relation detection, hydration profiling, and AST auto-fixing.",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/clcbws/laravel-eloquent-insight",
@@ -43,7 +42,8 @@
         "eloquent",
         "performance",
         "database",
-        "n+1",
+        "n-plus-1",
+        "query-optimization",
         "audit",
         "insight",
         "clcbws"

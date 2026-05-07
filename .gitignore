@@ -1,8 +1,7 @@
 /vendor/
 .agent/
 Laravel_Eloquent_Insight.code-workspace
-/integration_test/storage/
-/integration_test/vendor/
+/integration_test
 .phpunit.result.cache
 .idea/
 .vscode/
